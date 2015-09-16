@@ -14,6 +14,7 @@ struct vNode {
    LocationID  v;    // ALICANTE, etc
    TransportID type; // ROAD, RAIL, BOAT
    VList       next; // link to next node
+   // test line
 };
 
 struct MapRep {
